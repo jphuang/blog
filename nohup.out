@@ -1,0 +1,270 @@
+Configuration file: /root/myblog/_config.yml
+            Source: /root/myblog
+       Destination: /root/myblog/_site
+ Incremental build: disabled. Enable with --incremental
+      Generating... 
+                    done in 0.439 seconds.
+ Auto-regeneration: enabled for '/root/myblog'
+    Server address: http://127.0.0.1:4000/
+  Server running... press ctrl-c to stop.
+Configuration file: /root/myblog/_config.yml
+            Source: /root/myblog
+       Destination: /root/myblog/_site
+ Incremental build: disabled. Enable with --incremental
+      Generating... 
+                    done in 0.533 seconds.
+ Auto-regeneration: enabled for '/root/myblog'
+    Server address: http://127.0.0.1:4000/
+  Server running... press ctrl-c to stop.
+bundler: failed to load command: jekyll (/usr/local/bin/jekyll)
+SignalException: SIGHUP
+  /usr/local/lib/ruby/gems/2.1.0/gems/jekyll-3.6.0/lib/jekyll/commands/serve.rb:190:in `join'
+  /usr/local/lib/ruby/gems/2.1.0/gems/jekyll-3.6.0/lib/jekyll/commands/serve.rb:190:in `boot_or_detach'
+  /usr/local/lib/ruby/gems/2.1.0/gems/jekyll-3.6.0/lib/jekyll/commands/serve.rb:112:in `start_up_webrick'
+  /usr/local/lib/ruby/gems/2.1.0/gems/jekyll-3.6.0/lib/jekyll/commands/serve.rb:54:in `process'
+  /usr/local/lib/ruby/gems/2.1.0/gems/jekyll-3.6.0/lib/jekyll/commands/serve.rb:42:in `block (3 levels) in init_with_program'
+  /usr/local/lib/ruby/gems/2.1.0/gems/jekyll-3.6.0/lib/jekyll/commands/serve.rb:42:in `each'
+  /usr/local/lib/ruby/gems/2.1.0/gems/jekyll-3.6.0/lib/jekyll/commands/serve.rb:42:in `block (2 levels) in init_with_program'
+  /usr/local/lib/ruby/gems/2.1.0/gems/mercenary-0.3.6/lib/mercenary/command.rb:220:in `call'
+  /usr/local/lib/ruby/gems/2.1.0/gems/mercenary-0.3.6/lib/mercenary/command.rb:220:in `block in execute'
+  /usr/local/lib/ruby/gems/2.1.0/gems/mercenary-0.3.6/lib/mercenary/command.rb:220:in `each'
+  /usr/local/lib/ruby/gems/2.1.0/gems/mercenary-0.3.6/lib/mercenary/command.rb:220:in `execute'
+  /usr/local/lib/ruby/gems/2.1.0/gems/mercenary-0.3.6/lib/mercenary/program.rb:42:in `go'
+  /usr/local/lib/ruby/gems/2.1.0/gems/mercenary-0.3.6/lib/mercenary.rb:19:in `program'
+  /usr/local/lib/ruby/gems/2.1.0/gems/jekyll-3.6.0/exe/jekyll:15:in `<top (required)>'
+  /usr/local/bin/jekyll:23:in `load'
+  /usr/local/bin/jekyll:23:in `<top (required)>'
+Configuration file: /root/myblog/_config.yml
+            Source: /root/myblog
+       Destination: /root/myblog/_site
+ Incremental build: disabled. Enable with --incremental
+      Generating... 
+                    done in 0.549 seconds.
+ Auto-regeneration: enabled for '/root/myblog'
+    Server address: http://127.0.0.1:4000/
+  Server running... press ctrl-c to stop.
+[2018-03-01 03:14:40] ERROR `/favicon.ico' not found.
+[2018-03-01 04:49:51] ERROR `/robots.txt' not found.
+[2018-03-01 04:49:52] ERROR `/hbzhksztlv.html' not found.
+bundler: failed to load command: jekyll (/usr/local/bin/jekyll)
+SignalException: SIGHUP
+  /usr/local/lib/ruby/gems/2.1.0/gems/jekyll-3.6.0/lib/jekyll/commands/serve.rb:190:in `join'
+  /usr/local/lib/ruby/gems/2.1.0/gems/jekyll-3.6.0/lib/jekyll/commands/serve.rb:190:in `boot_or_detach'
+  /usr/local/lib/ruby/gems/2.1.0/gems/jekyll-3.6.0/lib/jekyll/commands/serve.rb:112:in `start_up_webrick'
+  /usr/local/lib/ruby/gems/2.1.0/gems/jekyll-3.6.0/lib/jekyll/commands/serve.rb:54:in `process'
+  /usr/local/lib/ruby/gems/2.1.0/gems/jekyll-3.6.0/lib/jekyll/commands/serve.rb:42:in `block (3 levels) in init_with_program'
+  /usr/local/lib/ruby/gems/2.1.0/gems/jekyll-3.6.0/lib/jekyll/commands/serve.rb:42:in `each'
+  /usr/local/lib/ruby/gems/2.1.0/gems/jekyll-3.6.0/lib/jekyll/commands/serve.rb:42:in `block (2 levels) in init_with_program'
+  /usr/local/lib/ruby/gems/2.1.0/gems/mercenary-0.3.6/lib/mercenary/command.rb:220:in `call'
+  /usr/local/lib/ruby/gems/2.1.0/gems/mercenary-0.3.6/lib/mercenary/command.rb:220:in `block in execute'
+  /usr/local/lib/ruby/gems/2.1.0/gems/mercenary-0.3.6/lib/mercenary/command.rb:220:in `each'
+  /usr/local/lib/ruby/gems/2.1.0/gems/mercenary-0.3.6/lib/mercenary/command.rb:220:in `execute'
+  /usr/local/lib/ruby/gems/2.1.0/gems/mercenary-0.3.6/lib/mercenary/program.rb:42:in `go'
+  /usr/local/lib/ruby/gems/2.1.0/gems/mercenary-0.3.6/lib/mercenary.rb:19:in `program'
+  /usr/local/lib/ruby/gems/2.1.0/gems/jekyll-3.6.0/exe/jekyll:15:in `<top (required)>'
+  /usr/local/bin/jekyll:23:in `load'
+  /usr/local/bin/jekyll:23:in `<top (required)>'
+Configuration file: /root/myblog/_config.yml
+            Source: /root/myblog
+       Destination: /root/myblog/_site
+ Incremental build: disabled. Enable with --incremental
+      Generating... 
+                    done in 0.634 seconds.
+ Auto-regeneration: enabled for '/root/myblog'
+    Server address: http://127.0.0.1:4000/
+  Server running... press ctrl-c to stop.
+[2018-03-28 01:49:19] ERROR `/favicon.ico' not found.
+[2018-03-28 08:23:11] ERROR `/robots.txt' not found.
+bundler: failed to load command: jekyll (/usr/local/bin/jekyll)
+SignalException: SIGHUP
+  /usr/local/lib/ruby/gems/2.1.0/gems/jekyll-3.6.0/lib/jekyll/commands/serve.rb:190:in `join'
+  /usr/local/lib/ruby/gems/2.1.0/gems/jekyll-3.6.0/lib/jekyll/commands/serve.rb:190:in `boot_or_detach'
+  /usr/local/lib/ruby/gems/2.1.0/gems/jekyll-3.6.0/lib/jekyll/commands/serve.rb:112:in `start_up_webrick'
+  /usr/local/lib/ruby/gems/2.1.0/gems/jekyll-3.6.0/lib/jekyll/commands/serve.rb:54:in `process'
+  /usr/local/lib/ruby/gems/2.1.0/gems/jekyll-3.6.0/lib/jekyll/commands/serve.rb:42:in `block (3 levels) in init_with_program'
+  /usr/local/lib/ruby/gems/2.1.0/gems/jekyll-3.6.0/lib/jekyll/commands/serve.rb:42:in `each'
+  /usr/local/lib/ruby/gems/2.1.0/gems/jekyll-3.6.0/lib/jekyll/commands/serve.rb:42:in `block (2 levels) in init_with_program'
+  /usr/local/lib/ruby/gems/2.1.0/gems/mercenary-0.3.6/lib/mercenary/command.rb:220:in `call'
+  /usr/local/lib/ruby/gems/2.1.0/gems/mercenary-0.3.6/lib/mercenary/command.rb:220:in `block in execute'
+  /usr/local/lib/ruby/gems/2.1.0/gems/mercenary-0.3.6/lib/mercenary/command.rb:220:in `each'
+  /usr/local/lib/ruby/gems/2.1.0/gems/mercenary-0.3.6/lib/mercenary/command.rb:220:in `execute'
+  /usr/local/lib/ruby/gems/2.1.0/gems/mercenary-0.3.6/lib/mercenary/program.rb:42:in `go'
+  /usr/local/lib/ruby/gems/2.1.0/gems/mercenary-0.3.6/lib/mercenary.rb:19:in `program'
+  /usr/local/lib/ruby/gems/2.1.0/gems/jekyll-3.6.0/exe/jekyll:15:in `<top (required)>'
+  /usr/local/bin/jekyll:23:in `load'
+  /usr/local/bin/jekyll:23:in `<top (required)>'
+Configuration file: /root/myblog/_config.yml
+            Source: /root/myblog
+       Destination: /root/myblog/_site
+ Incremental build: disabled. Enable with --incremental
+      Generating... 
+                    done in 0.494 seconds.
+ Auto-regeneration: enabled for '/root/myblog'
+    Server address: http://127.0.0.1:4000/
+  Server running... press ctrl-c to stop.
+[2018-05-09 06:35:00] ERROR `/favicon.ico' not found.
+[2018-05-09 08:39:14] ERROR `/robots.txt' not found.
+bundler: failed to load command: jekyll (/usr/local/bin/jekyll)
+SignalException: SIGHUP
+  /usr/local/lib/ruby/gems/2.1.0/gems/jekyll-3.6.0/lib/jekyll/commands/serve.rb:190:in `join'
+  /usr/local/lib/ruby/gems/2.1.0/gems/jekyll-3.6.0/lib/jekyll/commands/serve.rb:190:in `boot_or_detach'
+  /usr/local/lib/ruby/gems/2.1.0/gems/jekyll-3.6.0/lib/jekyll/commands/serve.rb:112:in `start_up_webrick'
+  /usr/local/lib/ruby/gems/2.1.0/gems/jekyll-3.6.0/lib/jekyll/commands/serve.rb:54:in `process'
+  /usr/local/lib/ruby/gems/2.1.0/gems/jekyll-3.6.0/lib/jekyll/commands/serve.rb:42:in `block (3 levels) in init_with_program'
+  /usr/local/lib/ruby/gems/2.1.0/gems/jekyll-3.6.0/lib/jekyll/commands/serve.rb:42:in `each'
+  /usr/local/lib/ruby/gems/2.1.0/gems/jekyll-3.6.0/lib/jekyll/commands/serve.rb:42:in `block (2 levels) in init_with_program'
+  /usr/local/lib/ruby/gems/2.1.0/gems/mercenary-0.3.6/lib/mercenary/command.rb:220:in `call'
+  /usr/local/lib/ruby/gems/2.1.0/gems/mercenary-0.3.6/lib/mercenary/command.rb:220:in `block in execute'
+  /usr/local/lib/ruby/gems/2.1.0/gems/mercenary-0.3.6/lib/mercenary/command.rb:220:in `each'
+  /usr/local/lib/ruby/gems/2.1.0/gems/mercenary-0.3.6/lib/mercenary/command.rb:220:in `execute'
+  /usr/local/lib/ruby/gems/2.1.0/gems/mercenary-0.3.6/lib/mercenary/program.rb:42:in `go'
+  /usr/local/lib/ruby/gems/2.1.0/gems/mercenary-0.3.6/lib/mercenary.rb:19:in `program'
+  /usr/local/lib/ruby/gems/2.1.0/gems/jekyll-3.6.0/exe/jekyll:15:in `<top (required)>'
+  /usr/local/bin/jekyll:23:in `load'
+  /usr/local/bin/jekyll:23:in `<top (required)>'
+Configuration file: /root/myblog/_config.yml
+            Source: /root/myblog
+       Destination: /root/myblog/_site
+ Incremental build: disabled. Enable with --incremental
+      Generating... 
+                    done in 0.534 seconds.
+ Auto-regeneration: enabled for '/root/myblog'
+    Server address: http://127.0.0.1:4000/
+  Server running... press ctrl-c to stop.
+[2018-05-28 15:20:07] ERROR `/favicon.ico' not found.
+bundler: failed to load command: jekyll (/usr/local/bin/jekyll)
+SignalException: SIGHUP
+  /usr/local/lib/ruby/gems/2.1.0/gems/jekyll-3.6.0/lib/jekyll/commands/serve.rb:190:in `join'
+  /usr/local/lib/ruby/gems/2.1.0/gems/jekyll-3.6.0/lib/jekyll/commands/serve.rb:190:in `boot_or_detach'
+  /usr/local/lib/ruby/gems/2.1.0/gems/jekyll-3.6.0/lib/jekyll/commands/serve.rb:112:in `start_up_webrick'
+  /usr/local/lib/ruby/gems/2.1.0/gems/jekyll-3.6.0/lib/jekyll/commands/serve.rb:54:in `process'
+  /usr/local/lib/ruby/gems/2.1.0/gems/jekyll-3.6.0/lib/jekyll/commands/serve.rb:42:in `block (3 levels) in init_with_program'
+  /usr/local/lib/ruby/gems/2.1.0/gems/jekyll-3.6.0/lib/jekyll/commands/serve.rb:42:in `each'
+  /usr/local/lib/ruby/gems/2.1.0/gems/jekyll-3.6.0/lib/jekyll/commands/serve.rb:42:in `block (2 levels) in init_with_program'
+  /usr/local/lib/ruby/gems/2.1.0/gems/mercenary-0.3.6/lib/mercenary/command.rb:220:in `call'
+  /usr/local/lib/ruby/gems/2.1.0/gems/mercenary-0.3.6/lib/mercenary/command.rb:220:in `block in execute'
+  /usr/local/lib/ruby/gems/2.1.0/gems/mercenary-0.3.6/lib/mercenary/command.rb:220:in `each'
+  /usr/local/lib/ruby/gems/2.1.0/gems/mercenary-0.3.6/lib/mercenary/command.rb:220:in `execute'
+  /usr/local/lib/ruby/gems/2.1.0/gems/mercenary-0.3.6/lib/mercenary/program.rb:42:in `go'
+  /usr/local/lib/ruby/gems/2.1.0/gems/mercenary-0.3.6/lib/mercenary.rb:19:in `program'
+  /usr/local/lib/ruby/gems/2.1.0/gems/jekyll-3.6.0/exe/jekyll:15:in `<top (required)>'
+  /usr/local/bin/jekyll:23:in `load'
+  /usr/local/bin/jekyll:23:in `<top (required)>'
+Configuration file: /root/myblog/_config.yml
+            Source: /root/myblog
+       Destination: /root/myblog/_site
+ Incremental build: disabled. Enable with --incremental
+      Generating... 
+                    done in 0.693 seconds.
+ Auto-regeneration: enabled for '/root/myblog'
+    Server address: http://127.0.0.1:4000/
+  Server running... press ctrl-c to stop.
+[2018-09-28 07:32:36] ERROR `/favicon.ico' not found.
+bundler: failed to load command: jekyll (/usr/local/bin/jekyll)
+SignalException: SIGHUP
+  /usr/local/lib/ruby/gems/2.1.0/gems/jekyll-3.6.0/lib/jekyll/commands/serve.rb:190:in `join'
+  /usr/local/lib/ruby/gems/2.1.0/gems/jekyll-3.6.0/lib/jekyll/commands/serve.rb:190:in `boot_or_detach'
+  /usr/local/lib/ruby/gems/2.1.0/gems/jekyll-3.6.0/lib/jekyll/commands/serve.rb:112:in `start_up_webrick'
+  /usr/local/lib/ruby/gems/2.1.0/gems/jekyll-3.6.0/lib/jekyll/commands/serve.rb:54:in `process'
+  /usr/local/lib/ruby/gems/2.1.0/gems/jekyll-3.6.0/lib/jekyll/commands/serve.rb:42:in `block (3 levels) in init_with_program'
+  /usr/local/lib/ruby/gems/2.1.0/gems/jekyll-3.6.0/lib/jekyll/commands/serve.rb:42:in `each'
+  /usr/local/lib/ruby/gems/2.1.0/gems/jekyll-3.6.0/lib/jekyll/commands/serve.rb:42:in `block (2 levels) in init_with_program'
+  /usr/local/lib/ruby/gems/2.1.0/gems/mercenary-0.3.6/lib/mercenary/command.rb:220:in `call'
+  /usr/local/lib/ruby/gems/2.1.0/gems/mercenary-0.3.6/lib/mercenary/command.rb:220:in `block in execute'
+  /usr/local/lib/ruby/gems/2.1.0/gems/mercenary-0.3.6/lib/mercenary/command.rb:220:in `each'
+  /usr/local/lib/ruby/gems/2.1.0/gems/mercenary-0.3.6/lib/mercenary/command.rb:220:in `execute'
+  /usr/local/lib/ruby/gems/2.1.0/gems/mercenary-0.3.6/lib/mercenary/program.rb:42:in `go'
+  /usr/local/lib/ruby/gems/2.1.0/gems/mercenary-0.3.6/lib/mercenary.rb:19:in `program'
+  /usr/local/lib/ruby/gems/2.1.0/gems/jekyll-3.6.0/exe/jekyll:15:in `<top (required)>'
+  /usr/local/bin/jekyll:23:in `load'
+  /usr/local/bin/jekyll:23:in `<top (required)>'
+Configuration file: /root/myblog/_config.yml
+            Source: /root/myblog
+       Destination: /root/myblog/_site
+ Incremental build: disabled. Enable with --incremental
+      Generating... 
+                    done in 0.65 seconds.
+ Auto-regeneration: enabled for '/root/myblog'
+    Server address: http://127.0.0.1:4000/
+  Server running... press ctrl-c to stop.
+[2018-10-25 02:37:19] ERROR `/favicon.ico' not found.
+bundler: failed to load command: jekyll (/usr/local/bin/jekyll)
+SignalException: SIGHUP
+  /usr/local/lib/ruby/gems/2.1.0/gems/jekyll-3.6.0/lib/jekyll/commands/serve.rb:190:in `join'
+  /usr/local/lib/ruby/gems/2.1.0/gems/jekyll-3.6.0/lib/jekyll/commands/serve.rb:190:in `boot_or_detach'
+  /usr/local/lib/ruby/gems/2.1.0/gems/jekyll-3.6.0/lib/jekyll/commands/serve.rb:112:in `start_up_webrick'
+  /usr/local/lib/ruby/gems/2.1.0/gems/jekyll-3.6.0/lib/jekyll/commands/serve.rb:54:in `process'
+  /usr/local/lib/ruby/gems/2.1.0/gems/jekyll-3.6.0/lib/jekyll/commands/serve.rb:42:in `block (3 levels) in init_with_program'
+  /usr/local/lib/ruby/gems/2.1.0/gems/jekyll-3.6.0/lib/jekyll/commands/serve.rb:42:in `each'
+  /usr/local/lib/ruby/gems/2.1.0/gems/jekyll-3.6.0/lib/jekyll/commands/serve.rb:42:in `block (2 levels) in init_with_program'
+  /usr/local/lib/ruby/gems/2.1.0/gems/mercenary-0.3.6/lib/mercenary/command.rb:220:in `call'
+  /usr/local/lib/ruby/gems/2.1.0/gems/mercenary-0.3.6/lib/mercenary/command.rb:220:in `block in execute'
+  /usr/local/lib/ruby/gems/2.1.0/gems/mercenary-0.3.6/lib/mercenary/command.rb:220:in `each'
+  /usr/local/lib/ruby/gems/2.1.0/gems/mercenary-0.3.6/lib/mercenary/command.rb:220:in `execute'
+  /usr/local/lib/ruby/gems/2.1.0/gems/mercenary-0.3.6/lib/mercenary/program.rb:42:in `go'
+  /usr/local/lib/ruby/gems/2.1.0/gems/mercenary-0.3.6/lib/mercenary.rb:19:in `program'
+  /usr/local/lib/ruby/gems/2.1.0/gems/jekyll-3.6.0/exe/jekyll:15:in `<top (required)>'
+  /usr/local/bin/jekyll:23:in `load'
+  /usr/local/bin/jekyll:23:in `<top (required)>'
+Configuration file: /root/myblog/_config.yml
+            Source: /root/myblog
+       Destination: /root/myblog/_site
+ Incremental build: disabled. Enable with --incremental
+      Generating... 
+                    done in 0.702 seconds.
+ Auto-regeneration: enabled for '/root/myblog'
+    Server address: http://127.0.0.1:4000/
+  Server running... press ctrl-c to stop.
+[2018-11-28 03:24:39] ERROR `/favicon.ico' not found.
+      Regenerating: 1 file(s) changed at 2018-11-28 03:28:11 ...done in 0.307290242 seconds.
+[2018-11-30 02:18:30] ERROR `/favicon.ico' not found.
+[2018-11-30 02:26:18] ERROR `/robots.txt' not found.
+[2018-11-30 07:42:00] ERROR `/wx/home/index' not found.
+[2018-11-30 07:43:01] ERROR `/wx/home/index' not found.
+[2018-11-30 07:43:04] ERROR `/wx/home/index' not found.
+[2018-11-30 07:43:06] ERROR `/wx/catalog/index' not found.
+[2018-11-30 07:43:06] ERROR `/wx/goods/count' not found.
+[2018-11-30 07:43:14] ERROR `/wx/home/index' not found.
+[2018-11-30 07:43:36] ERROR `/wx/home/index' not found.
+[2018-11-30 07:43:38] ERROR `/wx/brand/list' not found.
+[2018-11-30 07:44:07] ERROR `/wx/home/index' not found.
+[2018-11-30 07:44:08] ERROR `/wx/home/index' not found.
+[2018-11-30 07:44:10] ERROR `/wx/home/index' not found.
+[2018-11-30 07:44:13] ERROR `/wx/catalog/index' not found.
+[2018-11-30 07:44:13] ERROR `/wx/goods/count' not found.
+[2018-11-30 07:45:23] ERROR `/wx/home/index' not found.
+[2018-11-30 07:45:39] ERROR `/wx/home/index' not found.
+[2018-11-30 07:45:48] ERROR `/wx/home/index' not found.
+[2018-11-30 07:45:50] ERROR `/wx/home/index' not found.
+[2018-11-30 07:45:52] ERROR `/wx/home/index' not found.
+[2018-11-30 07:45:54] ERROR `/wx/goods/count' not found.
+[2018-11-30 07:45:54] ERROR `/wx/catalog/index' not found.
+[2018-11-30 07:46:23] ERROR `/wx/' not found.
+[2018-11-30 07:46:24] ERROR `/favicon.ico' not found.
+[2018-11-30 07:49:27] ERROR `/wx/home/index' not found.
+[2018-11-30 07:49:47] ERROR `/wx/home/index' not found.
+[2018-11-30 07:50:04] ERROR `/wx/home/index' not found.
+[2018-11-30 07:50:30] ERROR `/wx/home/index' not found.
+[2018-11-30 07:51:32] ERROR `/wx/home/index' not found.
+[2018-11-30 07:51:38] ERROR `/wx/home/index' not found.
+[2018-11-30 07:52:20] ERROR `/wx/catalog/index' not found.
+[2018-11-30 07:52:20] ERROR `/wx/goods/count' not found.
+bundler: failed to load command: jekyll (/usr/local/bin/jekyll)
+SignalException: SIGTERM
+  /usr/local/lib/ruby/gems/2.1.0/gems/jekyll-3.6.0/lib/jekyll/commands/serve.rb:190:in `exception'
+  /usr/local/lib/ruby/gems/2.1.0/gems/jekyll-3.6.0/lib/jekyll/commands/serve.rb:190:in `join'
+  /usr/local/lib/ruby/gems/2.1.0/gems/jekyll-3.6.0/lib/jekyll/commands/serve.rb:190:in `boot_or_detach'
+  /usr/local/lib/ruby/gems/2.1.0/gems/jekyll-3.6.0/lib/jekyll/commands/serve.rb:112:in `start_up_webrick'
+  /usr/local/lib/ruby/gems/2.1.0/gems/jekyll-3.6.0/lib/jekyll/commands/serve.rb:54:in `process'
+  /usr/local/lib/ruby/gems/2.1.0/gems/jekyll-3.6.0/lib/jekyll/commands/serve.rb:42:in `block (3 levels) in init_with_program'
+  /usr/local/lib/ruby/gems/2.1.0/gems/jekyll-3.6.0/lib/jekyll/commands/serve.rb:42:in `each'
+  /usr/local/lib/ruby/gems/2.1.0/gems/jekyll-3.6.0/lib/jekyll/commands/serve.rb:42:in `block (2 levels) in init_with_program'
+  /usr/local/lib/ruby/gems/2.1.0/gems/mercenary-0.3.6/lib/mercenary/command.rb:220:in `call'
+  /usr/local/lib/ruby/gems/2.1.0/gems/mercenary-0.3.6/lib/mercenary/command.rb:220:in `block in execute'
+  /usr/local/lib/ruby/gems/2.1.0/gems/mercenary-0.3.6/lib/mercenary/command.rb:220:in `each'
+  /usr/local/lib/ruby/gems/2.1.0/gems/mercenary-0.3.6/lib/mercenary/command.rb:220:in `execute'
+  /usr/local/lib/ruby/gems/2.1.0/gems/mercenary-0.3.6/lib/mercenary/program.rb:42:in `go'
+  /usr/local/lib/ruby/gems/2.1.0/gems/mercenary-0.3.6/lib/mercenary.rb:19:in `program'
+  /usr/local/lib/ruby/gems/2.1.0/gems/jekyll-3.6.0/exe/jekyll:15:in `<top (required)>'
+  /usr/local/bin/jekyll:23:in `load'
+  /usr/local/bin/jekyll:23:in `<top (required)>'

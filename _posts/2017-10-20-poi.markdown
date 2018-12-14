@@ -1,0 +1,195 @@
+---
+layout: post
+title:  "java word pdf"
+date:   2017-09-20 11:01:00 +0000
+categories: java word pdf
+permalink: wordToPdf
+---
+
+
+# java 操作docx（apache poi）
+###  maven依赖 
+    <dependency>
+		<groupId>org.apache.poi</groupId>
+		<artifactId>poi-ooxml</artifactId>
+		<version>3.11</version>
+	</dependency>
+
+### //处理段落
+
+```
+XWPFDocument xwpf = new XWPFDocument(new FileInputStream(templatePath + "moban.docx"));
+List<XWPFParagraph> paragraphs = xwpf.getParagraphs();
+if (paragraphs != null && paragraphs.size() > 0) {
+    for (XWPFParagraph paragraph : paragraphs) {
+        List<XWPFRun> runs = paragraph.getRuns();
+        for (XWPFRun run : runs) {
+            String text = run.getText(0);
+            //文本替换
+            if (text != null) {
+                text = text.replace("bPersion", bPersion);
+                run.setText(text, 0);
+            }
+        }
+    }
+}
+//输出新文件
+File inFile = new File(templatePath + bPersion + ".docx");
+FileOutputStream fos = new FileOutputStream(inFile);
+xwpf.write(fos);
+fos.flush();
+fos.close();
+```
+
+### 处理页眉页脚
+
+```
+List<XWPFParagraph> headers = xwpf.getHeaderFooterPolicy().getDefaultHeader().getParagraphs();
+for (XWPFParagraph paragraph : headers) {
+    List<XWPFRun> runs = paragraph.getRuns();
+    for (XWPFRun run : runs) {
+        String text = run.getText(0);
+        if (StringUtils.isNotEmpty(text)) {
+            text = text.replace("protocolNum", protocolNum);
+            run.setText(text, 0);
+        }
+    }
+}
+```
+### 处理表格
+
+```
+ XWPFTable xwpfTable = xwpf.getTables().get(0);
+List<XWPFParagraph> tablesParagraphs =xwpfTable.getBody().getParagraphs();
+xwpfTable.getRow(0).getCell(0).setText("texs");
+```
+
+# docx 转为pdf
+## poi 方式
+###  maven依赖
+    <dependency>
+		<groupId>fr.opensagres.xdocreport</groupId>
+		<artifactId>org.apache.poi.xwpf.converter.pdf</artifactId>
+		<version>1.0.6</version>
+	</dependency>
+	
+### code
+
+```
+FileInputStream in=new FileInputStream(inputFile);
+XWPFDocument document=new XWPFDocument(in);
+File outFile=new File(outputFile);
+OutputStream out=new FileOutputStream(outFile);
+PdfOptions options=PdfOptions.create().fontEncoding("windows-1250");
+PdfConverter.getInstance().convert(document,out,options);
+```
+### 优缺点
+> 优点： 性能可以，不依赖os
+> 缺点： 生成格式比较乱
+
+## documents4j 方式
+
+### maven 依赖
+    <dependency>
+		<groupId>com.documents4j</groupId>
+		<artifactId>documents4j-api</artifactId>
+		<version>1.0.3</version>
+	</dependency>
+    <dependency>
+		<groupId>com.documents4j</groupId>
+		<artifactId>documents4j-local</artifactId>
+		<version>1.0.3</version>
+	</dependency>
+	<dependency>
+		<groupId>com.documents4j</groupId>
+		<artifactId>documents4j-util-standalone</artifactId>
+		<version>1.0.3</version>
+	</dependency>
+	<dependency>
+		<groupId>com.documents4j</groupId>
+		<artifactId>documents4j-transformer-msoffice-word</artifactId>
+		<version>1.0.3</version>
+	</dependency>
+	
+### code
+
+```
+private void document4j(File wordFile, File target) throws InterruptedException {
+        IConverter converter =  LocalConverter.builder()
+                .baseFolder(new File(templatePath))
+                .workerPool(20, 25, 2, TimeUnit.SECONDS)
+                .processTimeout(5, TimeUnit.SECONDS)
+                .build();
+        //远程实现方式            
+       /* IConverter converter = RemoteConverter.builder()
+                .baseFolder(new File(templatePath))
+                .workerPool(20, 25, 2, TimeUnit.SECONDS)
+                .requestTimeout(10, TimeUnit.SECONDS)
+                .baseUri("http://192.168.9.228:9998")
+                .build();*/
+        Future<Boolean> conversion = converter.convert(wordFile)
+                .as(DocumentType.MS_WORD)
+                .to(target)
+                .as(DocumentType.PDF)
+                .prioritizeWith(1000) // optional
+                .schedule();
+        //监控转换线程
+        while(!conversion.isDone()){
+            Thread.sleep(1000 * 1);
+        }
+        converter.shutDown();
+    }
+```
+### 优缺点
+> 优点： 格式完美。
+> 缺点： 性能比较差，依赖ms office ，不能在linux下使用
+
+## docx4j 方式
+### maven依赖
+    <dependency>
+		<groupId>org.docx4j</groupId>
+		<artifactId>docx4j</artifactId>
+		<version>3.3.6</version>
+	</dependency>
+	<dependency>
+		<groupId>com.lowagie</groupId>
+		<artifactId>itext</artifactId>
+		<version>2.1.7</version>
+	</dependency>
+
+### code
+
+```
+WordprocessingMLPackage   wordMLPackage = WordprocessingMLPackage.load(inFile);
+Mapper fontMapper=new IdentityPlusMapper();
+PhysicalFont font= PhysicalFonts.get("Arial Unicode MS");
+PhysicalFont microsoft_yahei = PhysicalFonts.get("Microsoft Yahei");
+
+PhysicalFonts.put("微软雅黑", microsoft_yahei);
+PhysicalFonts.put("等线",font);
+
+wordMLPackage.setFontMapper(fontMapper);
+FOSettings foSettings= Docx4J.createFOSettings();
+foSettings.setWmlPackage(wordMLPackage);
+Docx4J.toPDF(wordMLPackage, new FileOutputStream(target));
+```
+### 优缺点
+> 优点： 性能可以，不依赖os，速度比较宽
+> 缺点： 字体不统一，需要处理中文乱码的问题
+
+## 
+
+### 依赖
+    在linux上安装libreoffice
+### code
+
+```
+String cmdstring = "libreoffice --headless --convert-to pdf "  +templatePath + bPersion + ".docx";
+Process proc = Runtime.getRuntime().exec(cmdstring);
+proc.waitFor(); //阻塞，直到上述命令执行完
+```
+### 优缺点
+> 优点：格式比较好，代码比较少
+> 缺点：性能一般，需要安装libreoffice和配置path，完全依赖外部环境
+
+
